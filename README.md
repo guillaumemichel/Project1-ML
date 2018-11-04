@@ -23,7 +23,7 @@ implementation and compute its accuracy.
 ## More about the files
 
 ### `proj1_helpers.py`
-This file contains a few given function useful for loading the data, predicting labels, and writing predictions to files. 
+This file contains a few given functions useful for loading the data, predicting labels, and writing predictions to files. 
 
 ### `implementations.py`
 This file contains the six functions required for this project:
