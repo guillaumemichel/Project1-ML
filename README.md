@@ -102,7 +102,7 @@ This file contains all the small functions that make those in `implementations.p
 Standardize the given input data (a matrix). It basically subtracts the mean of each columns for each column, and then normalize it by dividing by the standard devation.
 
 - `compute_accuracy(y, tx, w)`
-Computes the accuracy of a given model. It basically computes the labels of the input data `tx` by using the weights `w`, and then compare this prediction to the true labels `y`.
+Computes the accuracy of a given model. It basically computes the labels of the input data `tx` by using the weights `w`, and then compares this prediction to the true labels `y`.
 
 - `compute_loss_mse(y, tx, w, lambda_)`
 Computes the value of the loss function (here being MSE), using the labels, input data and given weights. Note that we added the possibility to introduce regularization by accepting the `lambda_` parameter.
